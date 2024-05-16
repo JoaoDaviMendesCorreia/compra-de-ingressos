@@ -3,8 +3,7 @@
  function comprar () {
     let tipo = document.getElementById ('tipo-ingresso');
     let qtd = parseInt(document.getElementById ('qtd').value);
-    alert (tipo)
-    alert (qtd)
+   
   
     if (qtd<= 0) {
         alert ('insira um numero valido')
